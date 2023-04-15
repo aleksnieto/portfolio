@@ -62,7 +62,7 @@
                 </div>
                 <h2>Mi Portfolio</h2>
                 <div class="imagenes-card">
-                    <img class="images" src="../img/card/github.png">
+                    <a href="https://github.com/aleksnieto/portfolio" target="_blank"><img class="images" src="../img/card/github.png" ></a>
                     <img class="images" src="../img/card/preview.png">
                 </div>
             </div>
@@ -92,11 +92,13 @@
         <div class="contactame">
             <h1>Contáctame!</h1>
             <div class="form">
-                <form id="form" class="topBefore">
-                    <input id="name" type="text" placeholder="Nombre">
-                    <input id="email" type="text" placeholder="Correo">
-                    <textarea id="message" type="text" placeholder="Mensaje"></textarea>
-            <input id="submit" type="submit" value="Enviar">
+                <form action="https://formsubmit.co/malejandronb01@gmail.com" method="POST" id="form">
+                    <input required id="name" type="text" placeholder="Nombre" name="name">
+                    <input required id="email" type="text" placeholder="Correo" name="email">
+                    <textarea required id="message" type="text" placeholder="Mensaje" name="message"></textarea>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://localhost:5500/">
+            <input id="submit" type="submit" value="Enviar" name="submit">
             
         </form>
             </div>
@@ -108,7 +110,6 @@
         </div>
         
     </footer>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
