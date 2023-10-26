@@ -127,7 +127,7 @@ function Section(){
                 <div className="gap-16 w-3/4 flex flex-col max-md:w-full">
                 <div className="project flex flex-col gap-4">
                     <div className="flex gap-2 flex-col max-md:w-full">
-                    <p className="font-bold font-sans text-l text-zinc-700 text-lg max-md:text-sm text-left flex gap-2 dark:text-white">Snake Barber<a><Email className="hover:cursor-pointer" viewBox = "0 0 24 24"/></a></p>
+                    <p className="font-bold font-sans text-l text-zinc-700 text-lg max-md:text-sm text-left flex gap-2 dark:text-white">Snake Barber<a href="https://www.snakebarber.com" target="_blank" rel="noreferrer"><Email className="hover:cursor-pointer" viewBox = "0 0 24 24"/></a></p>
                         <p className="text-gray-700 text-lg max-md:text-sm text-left dark:text-white">{t("SnakeBarber")}</p>
                     </div>
                     <div className="flex flex-col max-md:w-full gap-3 ">
@@ -145,7 +145,7 @@ function Section(){
 
                 <div className="project flex flex-col gap-4">
                     <div className="flex gap-2 flex-col max-md:w-full">
-                    <p className="font-bold font-sans text-l text-zinc-700 text-lg max-md:text-sm text-left flex gap-2 dark:text-white">Portfolio<a><Email viewBox = "0 0 24 24"/></a></p>
+                    <p className="font-bold font-sans text-l text-zinc-700 text-lg max-md:text-sm text-left flex gap-2 dark:text-white">Portfolio<a href="" target="_blank" rel="noreferrer"><Email viewBox = "0 0 24 24"/></a></p>
                         <p className="text-gray-700 text-lg max-md:text-sm text-left dark:text-white">{t("Portfolio")}</p>
                     </div>
                     <div className="flex flex-col max-md:w-full gap-3">
