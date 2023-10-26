@@ -1,0 +1,18 @@
+{
+    "Titlewospan":"¡Hola! Soy",
+    "Titlespan":" Alejandro Nieto ",
+    "Title":"un desarrollador Web de Jerez de la Frontera, España. Me gusta cuidar cada detalle en el proceso de cada proyecto que realizo y todo lo que conlleva.",
+    "Contact":"¡Contáctame!",
+    "BackgroundTitle":"Sobre mí",
+    "Backgroundwospan":"Actualmente estoy terminando ",
+    "Background":"El próximo año voy a estudiar ingeniería informática en la UCAM (Universidad Católica de Murcia).",
+    "Backgroundspan":"Desarrollo de Aplicaciones Web (DAW). ",
+    "Backgroundp":"Como desarrollador me dedico al diseño y la creación de los proyectos que realizo. Mi objetivo es siempre crear un dinámico, responsivo y bonito proyecto.",
+    "Backgroundpp":"me gusta hacer deporte, viajar, escuchar música y rodearme de buena compañía :) .",
+    "Backgroundspantwo":"En mi tiempo libre ",
+    "SkillsTitle":"Habilidades",
+    "ProjectsTitle":"Proyectos",
+    "SnakeBarber":"Página web customizada para una barbería local. Dispone de un sistema de booking propio, sistema crud con panel de administrador para cada barbero y un diseño totalmente responsivo.",
+    "Portfolio":"Mi primer portfolio. Creado con las tecnologías de React y Tailwind tiene diseño propio, responsivo y cariño. :)",
+    "Made":"Creado por Alejandro Nieto"
+}

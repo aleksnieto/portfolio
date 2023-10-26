@@ -1,26 +1,47 @@
-    import React, { useState } from "react";
+import React, { useState, useEffect } from 'react';
     
     const GitHub = () => {
 
     const [isHovered, setIsHovered] = useState(false);
+    const [svgSize, setSvgSize] = useState("32px");
 
-    const handleMouseEnter = () => {
-    setIsHovered(true);
-    };
+    // const handleMouseEnter = () => {
+    // setIsHovered(true);
+    // };
 
-    const handleMouseLeave = () => {
-        setIsHovered(false);
-    };
+    // const handleMouseLeave = () => {
+    //     setIsHovered(false);
+    // };
+
+    const updateSize = () => {
+      if (window.innerWidth < 720) {
+          setSvgSize("24px");
+      } else {
+          setSvgSize("32px");
+      }
+  };
+
+      useEffect(() => {
+        updateSize();
+      // Agrega un evento de cambio de tamaño de ventana para actualizar el tamaño del SVG
+      window.addEventListener("resize", updateSize);
+      // Limpia el evento cuando el componente se desmonta
+      return () => {
+          window.removeEventListener("resize", updateSize);
+      };
+  }, []);
+
 
     return (
         <svg
-          width="36px"
-          height="36px"
-          viewBox="0 0 192 192"
+          
+          width={svgSize}
+          height={svgSize}
+          viewBox="0 0 190 165"
           xmlns="http://www.w3.org/2000/svg"
           fill="none" // Cambia el color en función del estado isHovered
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
+          // onMouseEnter={handleMouseEnter}
+          // onMouseLeave={handleMouseLeave}
         >
           <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
           <g
@@ -30,8 +51,11 @@
           ></g>
           <g id="SVGRepo_iconCarrier">
             <path
-              stroke={isHovered ? "#3B82F6" : "black"}
-              fill={isHovered ? "#3B82F6" : "black"}
+            className="dark:fill-white dark:stroke-white dark:hover:stroke-blue-500 dark:hover:fill-blue-500 hover:fill-blue-500 hover:stroke-blue-500"
+              // stroke={isHovered ? "#3B82F6" : "black"}
+              // fill={isHovered ? "#3B82F6" : "black"}
+              stroke="black"
+              fill="black"
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="20"

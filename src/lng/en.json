@@ -1,0 +1,18 @@
+{
+    "Titlewospan":"Hi! I'm ",
+    "Titlespan":"Alejandro Nieto",
+    "Title":" a Web Developer from Jerez de la Frontera, Spain. I love taking care of the details of each project I do and everything that it entails.",
+    "Contact":"Contact me!",
+    "BackgroundTitle":"Background",
+    "Backgroundwospan":"I have recently graduated in ",
+    "Background":"Next year I will study computer engineering at the UCAM (Universidad Católica de Murcia)",
+    "Backgroundspan":"Design and development of web applications. ",
+    "Backgroundp":"As a developer I am dedicated to the design and engineering of the project. My goal is always to create a dynamic, responsive and beautiful project.",
+    "Backgroundpp":"i like to play sports, travel, listen to music and take photographs",
+    "Backgroundspantwo":"In time I dedicate to myself ",
+    "SkillsTitle":"Skills",
+    "ProjectsTitle":"Projects",
+    "SnakeBarber":"Custom website created for a barbershop business. Own booking system, crud system with an administrator panel for each barber and a fully responsive design.",
+    "Portfolio":"My first personal portfolio. Created with React and Tailwind technologies, it has its own and responsive design.",
+    "Made":"Made by Alejandro Nieto"
+}
