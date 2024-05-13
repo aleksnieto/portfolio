@@ -96,7 +96,7 @@ function Section(){
             <article className="mx-auto p-16 flex gap-12 max-md:flex-col max-md:gap-6 max-md:w-12/12 max-md:m-0 max-md:p-0 dark:bg-slate-950">
                 <div className=" w-1/4 flex justify-end max-md:justify-normal"><p className="uppercase text-xl font-extrabold text-blue-500 tracking-widest">{t("BackgroundTitle")}</p></div>
                 <div className="gap-4  w-3/4 flex flex-col max-md:m-0 max-md:w-full text-lg text-left max-md:text-sm">
-                <p className="text-lg text-left max-md:text-sm">{t("Backgroundwospan")}<span className="font-bold dark:text-blue-500">{t("Backgroundspan")}</span>{t("Background")}</p>
+                <p className="text-lg text-left max-md:text-sm">{t("Backgroundwospan")}<span className="font-bold dark:text-blue-500"></span></p>
                 <p className="text-lg text-left max-md:text-sm">{t("Backgroundp")}</p>
                 <p className="text-lg text-left max-md:text-sm"><span className="font-bold dark:text-blue-500">{t("Backgroundspantwo")}</span> {t("Backgroundpp")}</p>
             </div>
