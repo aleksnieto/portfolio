@@ -1,10 +1,10 @@
 {
     "Titlewospan":"Hi! I'm ",
     "Titlespan":"Alejandro Nieto",
-    "Title":" a Web Developer from Jerez de la Frontera, Spain. I love taking care of the details of each project I do and everything that it entails.",
+    "Title":" a Software Developer from Spain. I love taking care of the details of each project I do and everything that it entails.",
     "Contact":"Contact me!",
     "BackgroundTitle":"Background",
-    "Backgroundwospan":"Junior Full Stack Programmer delighted with React + Tailwind + Spring Boot as stack. My passion is to translate innovative ideas into clean code. I adapt to any technology, so I am motivated to keep learning.",
+    "Backgroundwospan":"Full Stack Developer delighted with Angular + Spring Boot as stack actually. My passion is to translate innovative ideas into clean code. I adapt to any technology, so I am motivated to keep learning.",
     "Backgroundp":"As a developer I am dedicated to the design and engineering of the project. My goal is always to create a dynamic, responsive and beautiful project.",
     "Backgroundpp":"i like to play sports, travel, listen to music and take photographs",
     "Backgroundspantwo":"In time I dedicate to myself ",
@@ -12,5 +12,15 @@
     "ProjectsTitle":"Projects",
     "SnakeBarber":"Custom website created for a barbershop business. Own booking system, crud system with an administrator panel for each barber and a fully responsive design.",
     "Portfolio":"My first personal portfolio. Created with React and Tailwind technologies, it has its own and responsive design.",
-    "Made":"Made by Alejandro Nieto"
+    "Made":"Made by Alejandro Nieto",
+    "Work": "Work Experience",
+    "WorkTogether": "Work Together",
+    "DownloadCv": "Download resume",
+    "WorkGrupoDigital":"Frontend/Full-Stack Developer (Angular + PrimeNG) for a large enterprise client, leading the migration and modernization of both the frontend and a Node.js backend. I delivered new features while refactoring legacy modules to improve performance and maintainability, built a consistent design system with PrimeNG and a shared style guide, and set up CI/CD with automated builds, tests, and deployments. Quality was enforced with Jest and solid testing practices, and I also contributed to three additional projects in the area, helping with reviews, releases, and cross-team coordination.",
+    "WorkGrupoNgn": "Constant development and maintenance of the frontend with Angular + Tailwind, acting as the sole frontend owner within a U.S.-based international team. I partnered with backend and product to continuously deliver fixes and new features, including an interactive OrgChart and an Azure-style configurable widget panel (drag & drop with persistent layouts). I implemented token management in a Web Worker with secure refresh and backoff, improving session stability. I also refactored components for reuse and maintainability, resulting in a clear overall performance improvement and a smoother, more consistent UX.",
+    "WorkControlnet": "Lead Full-Stack Developer for an international client on a CRM built with Blazor, .NET, and Bootstrap. Implemented and fixed key features, coordinating with engineering and design to define scope and prioritize the backlog. Worked autonomously in a high-ownership environment, delivering efficient end-to-end solutions that improved UX and performance.",
+    "ProjectEzbarbers": "Design, architecture, and development of a CRM focused on barbershops and hair salons for booking management and business administration. It includes booking options such as staff management, appointment cancellations, and email marketing to clients. I used Angular v19 for the front-end development, leveraging PrimeFlex and PrimeNG for styling and components. For the back-end, I used Spring Boot.",
+    "ProjectCryptoTracks": "Design, architecture, and development of a CRM focused on barbershops and hair salons for booking management and business administration. It includes booking options such as staff management, appointment cancellations, and email marketing to clients. I used Angular v19 for the front-end development, leveraging PrimeFlex and PrimeNG for styling and components. For the back-end, I used Spring Boot."
+
+
 }
