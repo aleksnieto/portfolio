@@ -1,14 +1,13 @@
 @font-face {
-  font-family: "Inter";
-  src: url("/fonts/InterVariable.woff2") format("woff2");
+  font-family: "Geist";
+  src: url("/fonts/GeistVariable.woff2") format("woff2");
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
 }
 
 :root {
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+  font-family: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-optical-sizing: auto;
   color: #161616;
   background: #fdfdfb;
@@ -17,7 +16,7 @@
   -webkit-font-smoothing: antialiased;
   --paper: #fdfdfb;
   --ink: #161616;
-  --muted: #666662;
+  --muted: #5c5c59;
   --line: #d8d8d3;
   --inset: clamp(24px, 4.2vw, 80px);
   --rail: 20%;
@@ -100,7 +99,7 @@ main:focus {
   align-items: start;
   column-gap: 20px;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 550;
   line-height: 1.4;
   letter-spacing: -0.02em;
 }
@@ -124,7 +123,7 @@ main:focus {
   align-items: center;
   gap: 4px;
   min-height: 44px;
-  font-size: 11px;
+  font-size: 12px;
   color: var(--muted);
 }
 .language-switch .is-current {
@@ -197,14 +196,14 @@ main:focus {
 }
 .hero-kicker {
   margin-bottom: 22px;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: -0.01em;
 }
 h1 {
-  font-size: clamp(48px, 5.65vw, 108px);
-  font-weight: 600;
-  line-height: 1.06;
-  letter-spacing: -0.055em;
+  font-size: clamp(44px, 5vw, 88px);
+  font-weight: 550;
+  line-height: 1.08;
+  letter-spacing: -0.052em;
 }
 .hero-line {
   display: block;
@@ -240,8 +239,8 @@ h1 {
   gap: 7px;
 }
 .work-counter strong {
-  font-size: clamp(58px, 6vw, 92px);
-  font-weight: 600;
+  font-size: clamp(54px, 5.4vw, 82px);
+  font-weight: 550;
   line-height: 0.9;
   letter-spacing: -0.075em;
 }
@@ -257,7 +256,7 @@ h1 {
   padding-right: 18%;
 }
 .index-row {
-  min-height: 35px;
+  min-height: 38px;
   display: grid;
   grid-template-columns: 22px 1fr auto 12px;
   gap: 7px;
@@ -266,12 +265,12 @@ h1 {
   letter-spacing: -0.02em;
 }
 .index-number {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--muted);
 }
 .index-category {
   color: var(--muted);
-  font-size: 11px;
+  font-size: 12px;
 }
 .index-arrow {
   opacity: 0;
@@ -299,7 +298,7 @@ h1 {
   align-items: center;
   justify-content: space-between;
   padding: 0 15px;
-  font-size: 11px;
+  font-size: 12px;
   transition: background 180ms;
 }
 .solid-link:hover {
@@ -315,7 +314,7 @@ h1 {
   gap: 12px;
   padding: 13px 0;
   border-bottom: 1px solid var(--line);
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.35;
 }
 .practice-note p span:first-child {
@@ -329,7 +328,7 @@ h1 {
   justify-content: space-between;
   gap: 24px;
   align-items: flex-start;
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: -0.02em;
   color: var(--muted);
 }
@@ -362,7 +361,7 @@ h1 {
 .small-count {
   display: inline-block;
   margin-left: 16px;
-  font-size: 10px;
+  font-size: 11px;
   color: var(--muted);
 }
 .gallery-layout {
@@ -391,11 +390,11 @@ h1 {
   padding-left: 8px;
 }
 .thumbnail-link.is-active {
-  font-weight: 600;
+  font-weight: 550;
 }
 .project-number {
   color: var(--muted);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 400;
 }
 .project-index-arrow {
@@ -429,10 +428,10 @@ h1 {
 .project-heading h2 {
   max-width: 850px;
   margin: auto 0 24px;
-  font-size: clamp(52px, 8vw, 135px);
-  font-weight: 600;
-  line-height: 0.95;
-  letter-spacing: -0.07em;
+  font-size: clamp(48px, 6.5vw, 108px);
+  font-weight: 550;
+  line-height: 1;
+  letter-spacing: -0.055em;
   overflow-wrap: anywhere;
 }
 .project-heading > p {
@@ -446,7 +445,7 @@ h1 {
   border-bottom: 1px solid var(--line);
 }
 .project-story h3 {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
   margin-bottom: 16px;
 }
@@ -532,7 +531,7 @@ h1 {
   letter-spacing: -0.04em;
 }
 .experience-focus {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.5;
   letter-spacing: -0.01em;
 }
@@ -752,7 +751,7 @@ h1 {
 .intro-name {
   margin: auto 0;
   font-size: clamp(53px, 12vw, 190px);
-  font-weight: 600;
+  font-weight: 550;
   line-height: 0.94;
   letter-spacing: -0.085em;
 }
@@ -940,7 +939,7 @@ h1 {
     grid-column: 2;
   }
 }
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   :root {
     --inset: 24px;
     --rail: 0%;
@@ -957,7 +956,7 @@ h1 {
     gap: 14px;
   }
   .menu-toggle {
-    font-size: 11px;
+    font-size: 12px;
     gap: 7px;
   }
   .home-page {
@@ -972,22 +971,22 @@ h1 {
     align-items: center;
     justify-content: space-between;
     padding: 0;
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 22px;
   }
   .hero-margin .text-link {
-    font-size: 10px;
+    font-size: 12px;
     min-height: 30px;
     gap: 9px;
   }
   .hero-kicker {
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 17px;
   }
   h1 {
-    font-size: clamp(28px, 7.5vw, 56px);
+    font-size: clamp(30px, 7.1vw, 52px);
     letter-spacing: -0.045em;
-    line-height: 1.12;
+    line-height: 1.1;
   }
   .hero-line.line-0 {
     padding-left: 0;
@@ -1004,7 +1003,7 @@ h1 {
   }
   .home-notes > p:first-child {
     margin: 0;
-    font-size: 11px;
+    font-size: 12px;
   }
   .home-notes > p:first-child br {
     display: none;
@@ -1016,7 +1015,7 @@ h1 {
     padding-top: 0;
   }
   .work-counter strong {
-    font-size: 72px;
+    font-size: 64px;
   }
   .work-counter span {
     max-width: none;
@@ -1026,7 +1025,7 @@ h1 {
     padding: 0;
   }
   .index-row {
-    min-height: 43px;
+    min-height: 46px;
     grid-template-columns: 23px 1fr auto 12px;
     gap: 9px;
     font-size: 13px;
@@ -1034,7 +1033,7 @@ h1 {
   }
   .index-category {
     display: block;
-    font-size: 10px;
+    font-size: 11px;
   }
   .index-arrow {
     opacity: 1;
@@ -1054,7 +1053,7 @@ h1 {
   .site-footer {
     flex-wrap: wrap;
     gap: 14px;
-    font-size: 10px;
+    font-size: 11px;
     line-height: 1.4;
     padding-top: 18px;
   }
@@ -1073,18 +1072,18 @@ h1 {
   .page-toolbar {
     padding-top: 38px;
     padding-bottom: 21px;
-    font-size: 11px;
+    font-size: 12px;
   }
   .page-toolbar h1 {
-    font-size: 11px;
+    font-size: 12px;
   }
   .page-toolbar .text-link {
-    font-size: 10px;
+    font-size: 12px;
     gap: 8px;
   }
   .small-count {
     margin-left: 7px;
-    font-size: 9px;
+    font-size: 11px;
   }
   .gallery-layout {
     display: flex;
@@ -1102,14 +1101,14 @@ h1 {
     min-height: 58px;
     grid-template-columns: 19px minmax(0, 1fr) 12px;
     gap: 7px;
-    font-size: 11px;
+    font-size: 12px;
   }
   .project-heading {
     min-height: 265px;
     padding: 15px 0 23px;
   }
   .project-heading h2 {
-    font-size: clamp(45px, 10.5vw, 74px);
+    font-size: clamp(40px, 9vw, 68px);
     margin-bottom: 24px;
   }
   .project-story {
@@ -1130,21 +1129,21 @@ h1 {
     margin-top: 10px;
   }
   .project-navigation {
-    font-size: 11px;
+    font-size: 12px;
   }
   .editorial-row {
     grid-template-columns: 1fr;
     gap: 28px;
   }
   .section-label {
-    font-size: 11px;
+    font-size: 12px;
   }
   .about-intro {
     padding: 25px 0 58px;
     gap: 30px;
   }
   .about-intro h1 {
-    font-size: clamp(34px, 8.5vw, 55px);
+    font-size: clamp(32px, 7.8vw, 50px);
     line-height: 1.02;
   }
   .bio-lead {
@@ -1171,7 +1170,7 @@ h1 {
   }
   .experience-company {
     grid-column: 1;
-    font-size: 26px;
+    font-size: 24px;
   }
   .experience-focus {
     grid-column: 1;
@@ -1252,7 +1251,7 @@ h1 {
   }
   .navigation-footer {
     flex-direction: column;
-    font-size: 11px;
+    font-size: 12px;
     gap: 14px;
     overflow-wrap: anywhere;
   }

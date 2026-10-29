@@ -20,8 +20,8 @@ const copy = {
     work: "Proyectos",
     about: "Sobre mí",
     contact: "Contacto",
-    introduction: "METRICA · Ingeniería con IA",
-    discipline: "(Ingeniería, IA & producto)",
+    introduction: "METRICA · Full Stack Engineer",
+    discipline: "Ingeniería de software & producto digital",
     headline: [
       "Construyo software.",
       "Doy forma a ideas.",
@@ -52,7 +52,7 @@ const copy = {
     profileNote: "Perfil profesional",
     practice: [
       ["Ingeniería", "Full stack · Angular / Spring Boot"],
-      ["IA aplicada", "Ingeniería de software · METRICA"],
+      ["Producto", "Diseño, desarrollo y dirección"],
       ["Dirección", "Producto digital · Gouka Studio"],
     ],
     aboutHeading: (
@@ -65,7 +65,7 @@ const copy = {
     background: "Trayectoria",
     approach: "De la interfaz al sistema.",
     aboutText:
-      "Conecto diseño de interfaces, arquitectura y desarrollo full stack. En mis productos trabajo con Angular y Spring Boot; en METRICA, con ingeniería asistida por IA; y en Gouka Studio dirijo el desarrollo de producto digital.",
+      "Conecto diseño de interfaces, arquitectura y desarrollo full stack. Trabajo como ingeniero en METRICA y dirijo el desarrollo de producto digital en Gouka Studio.",
     capabilities: "Áreas de trabajo",
     services: [
       "Interfaces & sistemas de diseño",
@@ -105,8 +105,8 @@ const copy = {
     work: "Projects",
     about: "About",
     contact: "Contact",
-    introduction: "METRICA · AI engineering",
-    discipline: "(Engineering, AI & product)",
+    introduction: "METRICA · Full Stack Engineer",
+    discipline: "Software engineering & digital product",
     headline: ["I build software.", "I shape ideas.", "I lead Gouka Studio."],
     selected: (
       <>
@@ -133,7 +133,7 @@ const copy = {
     profileNote: "Professional profile",
     practice: [
       ["Engineering", "Full stack · Angular / Spring Boot"],
-      ["Applied AI", "Software engineering · METRICA"],
+      ["Product", "Design, development and direction"],
       ["Leadership", "Digital product · Gouka Studio"],
     ],
     aboutHeading: (
@@ -146,7 +146,7 @@ const copy = {
     background: "Experience",
     approach: "From interface to system.",
     aboutText:
-      "I connect interface design, architecture and full-stack development. My products use Angular and Spring Boot; at METRICA I work with AI-assisted engineering; and at Gouka Studio I lead digital product development.",
+      "I connect interface design, architecture and full-stack development. I work as an engineer at METRICA and lead digital product development at Gouka Studio.",
     capabilities: "Areas of work",
     services: [
       "Interfaces & design systems",
@@ -207,6 +207,7 @@ function App() {
   const activeIndex = projects.findIndex((item) => item.id === route.project);
   const activeProject = projects[activeIndex];
   const companySelected = activeProject.kind === "company";
+  const focusSelected = Boolean(activeProject.focus);
   const totalWorks = String(projects.length).padStart(2, "0");
   const loading = intro === "loading";
 
@@ -547,9 +548,9 @@ function App() {
                         <p>{activeProject.contribution[language]}</p>
                       </div>
                       <div className="project-stack">
-                        <h3>{companySelected ? c.focus : c.stack}</h3>
+                        <h3>{focusSelected ? c.focus : c.stack}</h3>
                         <p>
-                          {(companySelected
+                          {(focusSelected
                             ? activeProject.focus[language]
                             : activeProject.stack
                           ).join(" / ")}

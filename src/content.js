@@ -5,8 +5,8 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/alejandronietobarea/",
   github: "https://github.com/aleksnieto",
   bio: {
-    es: "Full Stack Engineer en METRICA y CEO de Gouka Studio. Ingeniería con IA y creación de productos digitales, de la idea al desarrollo. He trabajado en más de 30 proyectos.",
-    en: "Full Stack Engineer at METRICA and CEO of Gouka Studio. AI-assisted engineering and digital products, from idea to development. I have worked on more than 30 projects.",
+    es: "Full Stack Engineer en METRICA y CEO de Gouka Studio. Diseño y desarrollo de productos digitales, de la idea al sistema. He trabajado en más de 30 proyectos.",
+    en: "Full Stack Engineer at METRICA and CEO of Gouka Studio. I design and build digital products, from idea to system. I have worked on more than 30 projects.",
   },
 };
 
@@ -54,6 +54,28 @@ export const projects = [
     status: { es: "En evolución", en: "Evolving" },
   },
   {
+    id: "dna",
+    title: "DNA",
+    category: {
+      es: "Colaboración · Proyectos digitales",
+      en: "Collaboration · Digital projects",
+    },
+    description: {
+      es: "Varios proyectos de software desarrollados en colaboración con DNA.",
+      en: "Several software projects developed in collaboration with DNA.",
+    },
+    contribution: {
+      es: "Participación en el diseño y desarrollo de soluciones digitales.",
+      en: "Contribution to the design and development of digital solutions.",
+    },
+    focus: {
+      es: ["Ingeniería", "Producto digital"],
+      en: ["Engineering", "Digital product"],
+    },
+    href: null,
+    status: { es: "Colaboración", en: "Collaboration" },
+  },
+  {
     id: "gouka",
     title: "Gouka Media Engine",
     category: {
@@ -71,6 +93,25 @@ export const projects = [
     stack: ["FastAPI", "Next.js", "PostgreSQL", "Celery"],
     href: null,
     status: { es: "En desarrollo", en: "In development" },
+  },
+  {
+    id: "gouka-os",
+    title: "Gouka OS",
+    category: {
+      es: "Herramienta · Sistema interno",
+      en: "Tool · Internal system",
+    },
+    description: {
+      es: "Un espacio de trabajo que reúne herramientas de Gouka Studio en una única interfaz.",
+      en: "A workspace that brings Gouka Studio tools together in a single interface.",
+    },
+    contribution: {
+      es: "Diseño y desarrollo del escritorio web y la integración de herramientas existentes.",
+      en: "Design and development of the web desktop and integration of existing tools.",
+    },
+    stack: ["JavaScript", "Node.js"],
+    href: null,
+    status: { es: "Uso interno", en: "Internal use" },
   },
   {
     id: "ezbarbers",
@@ -108,8 +149,8 @@ export const experience = [
     period: { es: "Jun 2026 — Actualidad", en: "Jun 2026 — Present" },
     role: "Full Stack Engineer",
     summary: {
-      es: "Ingeniería de software con IA.",
-      en: "AI-assisted software engineering.",
+      es: "Ingeniería de software y desarrollo full stack.",
+      en: "Software engineering and full-stack development.",
     },
   },
   {

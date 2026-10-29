@@ -141,3 +141,11 @@ Fecha: 2026-09-28. Revisión independiente del producto en ejecución, mediante 
 No se probaron destinos externos, envío de email ni un despliegue público. La revisión cubre el portfolio local y compilado, no los productos enlazados.
 
 Al finalizar se restauró el viewport del navegador y se cerró únicamente la pestaña de QA (2); la pestaña principal (1) permanece intacta.
+
+# Revisión 29/10/2026 — Geist y selección ampliada
+
+- Revisión independiente No-AI Gate: **88/100**, READY, sin problemas críticos.
+- Home, trabajo y trayectoria verificados a 1280, 768, 390 y 320 px. A 768 px se adelantó la composición de una columna; `clientWidth` y `scrollWidth` coinciden.
+- Geist carga correctamente. Menú modal, Escape, retorno y visibilidad del foco comprobados. Consola sin errores ni avisos.
+- DNA se presenta como colaboración agrupada y general, pendiente de nombres o detalles públicos confirmados por el autor.
+- El modo de movimiento reducido está implementado, aunque no se emuló visualmente en esta revisión.

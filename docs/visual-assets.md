@@ -4,7 +4,7 @@ Remake editorial del portfolio de Alejandro Nieto, basado en las tres referencia
 
 ## Tipografía
 
-La familia principal usa `-apple-system` y `BlinkMacSystemFont` en dispositivos Apple. Como alternativa local, especialmente en Windows, se incluye Inter variable del [repositorio oficial](https://github.com/rsms/inter/tree/master/docs/font-files), con su licencia SIL Open Font License en `public/fonts/Inter-LICENSE.txt`. No se distribuye la tipografía propietaria de Apple. La jerarquía ajusta pesos, interlineado y espaciado; Inter se sirve desde el propio sitio, sin peticiones a proveedores externos.
+La familia principal es [Geist Sans](https://vercel.com/font), creada por Vercel y distribuida con licencia SIL Open Font License. Se sirve la versión variable desde `public/fonts/GeistVariable.woff2`, con licencia en `public/fonts/Geist-LICENSE.txt`; el sistema operativo aporta las fuentes de reserva. Se ajustaron tamaño, peso, interlineado y espaciado para conservar una composición editorial más serena y legible. No se distribuye la tipografía propietaria de Apple ni se solicitan fuentes a proveedores externos. Los antiguos archivos de Inter se retiraron del bundle.
 
 ## Activos y estado actual
 
