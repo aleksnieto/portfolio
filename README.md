@@ -1,6 +1,6 @@
 # Alejandro Nieto — Portfolio
 
-Portfolio editorial en React y Vite. Blanco y negro, una portada tipográfica, un contador de más de 30 proyectos trabajados, seis entradas seleccionadas, trayectoria profesional y contacto. Disponible en español e inglés.
+Portfolio editorial en React y Vite. Blanco y negro, una portada tipográfica, un contador de más de 30 proyectos trabajados, seis entradas en portada y ocho en la colección completa, trayectoria profesional y contacto. Disponible en español e inglés.
 
 ## Desarrollo
 
@@ -21,7 +21,7 @@ npm test
 - `src/styles.css`: sistema visual y adaptaciones móviles; movimiento reducido mediante la preferencia del sistema.
 - Los PDF del CV se retiraron del repositorio activo y la web dejó de ofrecer su descarga. Los archivos se pueden recuperar desde el historial de Git. La web usa `goukastudio@gmail.com` como correo de contacto y omite la ciudad y la sección personal.
 
-Rutas: `#home`, `#work`, `#work/gouka-studio`, `#work/cleverpsico`, `#work/dna`, `#work/gouka`, `#work/gouka-os`, `#work/ezbarbers`, `#about` y `#contact`. Gouka Studio y Gouka Media Engine son entradas distintas. DNA agrupa varias colaboraciones sin identificar clientes ni proyectos concretos; una ruta desconocida muestra la primera entrada.
+Rutas: `#home`, `#work`, `#work/gouka-studio`, `#work/cleverpsico`, `#work/dna`, `#work/gouka`, `#work/gouka-os`, `#work/ezbarbers`, `#work/gouka-sky`, `#work/brumia`, `#about` y `#contact`. Gouka Studio y Gouka Media Engine son entradas distintas. DNA agrupa varias colaboraciones sin identificar clientes ni proyectos concretos; una ruta desconocida muestra la primera entrada.
 
 El menú utiliza un diálogo nativo con foco modal y cierre mediante Escape. Los proyectos mantienen el foco al avanzar con teclado; los enlaces funcionan con el historial del navegador. El idioma se conserva localmente cuando el almacenamiento está disponible.
 

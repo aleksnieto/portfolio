@@ -149,3 +149,9 @@ Al finalizar se restauró el viewport del navegador y se cerró únicamente la p
 - Geist carga correctamente. Menú modal, Escape, retorno y visibilidad del foco comprobados. Consola sin errores ni avisos.
 - DNA se presenta como colaboración agrupada y general, pendiente de nombres o detalles públicos confirmados por el autor.
 - El modo de movimiento reducido está implementado, aunque no se emuló visualmente en esta revisión.
+
+## Ampliación de la colección — 29/10/2026
+
+- La portada conserva seis proyectos; la colección muestra ocho, con GOUKA SKY y BRUMIA como entradas 07 y 08. Ambas fichas y sus enlaces públicos se comprobaron en la compilación local.
+- La ficha de BRUMIA y su índice se revisaron a 1280 y 390 px. No hay desbordamiento horizontal (`scrollWidth` 1265 frente a 1280 y 375 frente a 390); el índice se dispone en dos columnas en móvil. Se restauró el viewport después de la prueba.
+- Test de contenido, ESLint y compilación de Vite pasan. La comprobación de producción se documentará tras el despliegue.

@@ -208,6 +208,7 @@ function App() {
   const activeProject = projects[activeIndex];
   const companySelected = activeProject.kind === "company";
   const focusSelected = Boolean(activeProject.focus);
+  const featuredProjects = projects.filter((project) => project.featured !== false);
   const totalWorks = String(projects.length).padStart(2, "0");
   const loading = intro === "loading";
 
@@ -456,7 +457,7 @@ function App() {
                   </div>
                   <div className="project-index">
                     <nav aria-label={c.selection}>
-                      {projects.map((project, i) => (
+                      {featuredProjects.map((project, i) => (
                         <a
                           className="index-row"
                           href={`#work/${project.id}`}

@@ -132,6 +132,46 @@ export const projects = [
     href: null,
     status: { es: "Proyecto propio", en: "Personal project" },
   },
+  {
+    id: "gouka-sky",
+    title: "GOUKA SKY",
+    featured: false,
+    category: {
+      es: "Concepto · Experiencias para eventos",
+      en: "Concept · Event experiences",
+    },
+    description: {
+      es: "Una web para presentar conceptos de shows de luz con drones y recoger solicitudes para eventos. Incluye propuestas por ocasión y una previsualización creativa.",
+      en: "A website presenting drone light show concepts and collecting event enquiries. It includes occasion-specific proposals and a creative preview.",
+    },
+    contribution: {
+      es: "Diseño y desarrollo de la experiencia web y del flujo de solicitudes.",
+      en: "Design and development of the web experience and enquiry flow.",
+    },
+    stack: ["JavaScript", "Node.js"],
+    href: "https://gouka-sky.vercel.app/",
+    status: { es: "En validación", en: "In validation" },
+  },
+  {
+    id: "brumia",
+    title: "BRUMIA",
+    featured: false,
+    category: {
+      es: "Producto · Gestión de bodas",
+      en: "Product · Wedding planning",
+    },
+    description: {
+      es: "Una aplicación para estudios de organización de bodas. Reúne proyectos, presupuestos, invitados, tareas y recuerdos en un mismo espacio.",
+      en: "An application for wedding planning studios. It brings projects, budgets, guests, tasks and memories into one workspace.",
+    },
+    contribution: {
+      es: "Diseño y desarrollo de la aplicación y sus flujos de trabajo, con una demo pública y un piloto de cuentas.",
+      en: "Design and development of the application and its workflows, with a public demo and an account pilot.",
+    },
+    stack: ["JavaScript", "Vite", "Node.js"],
+    href: "https://brumia.vercel.app/",
+    status: { es: "Piloto público", en: "Public pilot" },
+  },
 ];
 
 export const experience = [
