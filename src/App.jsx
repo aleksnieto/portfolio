@@ -41,8 +41,6 @@ const copy = {
     index: "Índice de proyectos",
     navigation: "Navegación entre proyectos",
     back: "Volver al inicio",
-    companyOverview: "El estudio",
-    focus: "Enfoque",
     overview: "El proyecto",
     contribution: "Mi aportación",
     stack: "Tecnologías",
@@ -122,8 +120,6 @@ const copy = {
     index: "Project index",
     navigation: "Project navigation",
     back: "Back to home",
-    companyOverview: "The studio",
-    focus: "Focus",
     overview: "The project",
     contribution: "My contribution",
     stack: "Technologies",
@@ -206,9 +202,6 @@ function App() {
   const c = copy[language];
   const activeIndex = projects.findIndex((item) => item.id === route.project);
   const activeProject = projects[activeIndex];
-  const companySelected = activeProject.kind === "company";
-  const focusSelected = Boolean(activeProject.focus);
-  const featuredProjects = projects.filter((project) => project.featured !== false);
   const totalWorks = String(projects.length).padStart(2, "0");
   const loading = intro === "loading";
 
@@ -276,7 +269,14 @@ function App() {
   }, [route.view, loading]);
 
   useEffect(() => {
+    const redirectRemovedProject = () => {
+      const [view, project] = window.location.hash.slice(1).split("/");
+      if (view === "work" && project && !projects.some(({ id }) => id === project)) {
+        window.history.replaceState(null, "", `#work/${projects[0].id}`);
+      }
+    };
     const onHashChange = () => {
+      redirectRemovedProject();
       const next = readRoute();
       setRoute(next);
       if (previousView.current !== next.view) {
@@ -285,6 +285,7 @@ function App() {
       }
       previousView.current = next.view;
     };
+    redirectRemovedProject();
     window.addEventListener("hashchange", onHashChange);
     return () => window.removeEventListener("hashchange", onHashChange);
   }, []);
@@ -457,7 +458,7 @@ function App() {
                   </div>
                   <div className="project-index">
                     <nav aria-label={c.selection}>
-                      {featuredProjects.map((project, i) => (
+                      {projects.map((project, i) => (
                         <a
                           className="index-row"
                           href={`#work/${project.id}`}
@@ -539,9 +540,7 @@ function App() {
                       aria-atomic="true"
                     >
                       <div>
-                        <h3>
-                          {companySelected ? c.companyOverview : c.overview}
-                        </h3>
+                        <h3>{c.overview}</h3>
                         <p>{activeProject.description[language]}</p>
                       </div>
                       <div>
@@ -549,13 +548,8 @@ function App() {
                         <p>{activeProject.contribution[language]}</p>
                       </div>
                       <div className="project-stack">
-                        <h3>{focusSelected ? c.focus : c.stack}</h3>
-                        <p>
-                          {(focusSelected
-                            ? activeProject.focus[language]
-                            : activeProject.stack
-                          ).join(" / ")}
-                        </p>
+                        <h3>{c.stack}</h3>
+                        <p>{activeProject.stack.join(" / ")}</p>
                         {activeProject.href && (
                           <a
                             className="text-link"

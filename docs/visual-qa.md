@@ -155,3 +155,9 @@ Al finalizar se restauró el viewport del navegador y se cerró únicamente la p
 - La portada conserva seis proyectos; la colección muestra ocho, con GOUKA SKY y BRUMIA como entradas 07 y 08. Ambas fichas y sus enlaces públicos se comprobaron en la compilación local.
 - La ficha de BRUMIA y su índice se revisaron a 1280 y 390 px. No hay desbordamiento horizontal (`scrollWidth` 1265 frente a 1280 y 375 frente a 390); el índice se dispone en dos columnas en móvil. Se restauró el viewport después de la prueba.
 - Test de contenido, ESLint y compilación de Vite pasan. La comprobación de producción se documentará tras el despliegue.
+
+## Selección reducida — 29/10/2026
+
+- La selección actual contiene CleverPsico, Ezbarbers y BRUMIA. Gouka Studio queda en el perfil y la trayectoria; DNA y los proyectos internos no aparecen en los índices.
+- Portada y colección revisadas a 1280 y 390 px. Los tres enlaces se muestran y no aparece desbordamiento horizontal (`scrollWidth` 1265/375 frente a viewport 1280/390).
+- Las rutas antiguas de proyectos retirados se redirigen a la primera ficha vigente para evitar que la URL y el contenido discrepen.

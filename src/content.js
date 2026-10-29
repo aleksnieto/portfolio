@@ -12,29 +12,6 @@ export const profile = {
 
 export const projects = [
   {
-    id: "gouka-studio",
-    kind: "company",
-    title: "Gouka Studio",
-    category: {
-      es: "Empresa · Estudio digital",
-      en: "Company · Digital studio",
-    },
-    description: {
-      es: "El estudio que dirijo como CEO. Un espacio para dar forma a productos digitales, desde la idea hasta el desarrollo.",
-      en: "The studio I lead as CEO. A space to shape digital products, from the initial idea through development.",
-    },
-    contribution: {
-      es: "Dirección del estudio y desarrollo de producto digital.",
-      en: "Studio leadership and digital product development.",
-    },
-    focus: {
-      es: ["Dirección", "Producto digital", "Ingeniería de software"],
-      en: ["Leadership", "Digital product", "Software engineering"],
-    },
-    href: null,
-    status: { es: "CEO · Desde julio de 2026", en: "CEO · Since July 2026" },
-  },
-  {
     id: "cleverpsico",
     title: "CleverPsico",
     category: {
@@ -52,66 +29,6 @@ export const projects = [
     stack: ["Angular", "Spring Boot"],
     href: "https://www.cleverpsico.com",
     status: { es: "En evolución", en: "Evolving" },
-  },
-  {
-    id: "dna",
-    title: "DNA",
-    category: {
-      es: "Colaboración · Proyectos digitales",
-      en: "Collaboration · Digital projects",
-    },
-    description: {
-      es: "Varios proyectos de software desarrollados en colaboración con DNA.",
-      en: "Several software projects developed in collaboration with DNA.",
-    },
-    contribution: {
-      es: "Participación en el diseño y desarrollo de soluciones digitales.",
-      en: "Contribution to the design and development of digital solutions.",
-    },
-    focus: {
-      es: ["Ingeniería", "Producto digital"],
-      en: ["Engineering", "Digital product"],
-    },
-    href: null,
-    status: { es: "Colaboración", en: "Collaboration" },
-  },
-  {
-    id: "gouka",
-    title: "Gouka Media Engine",
-    category: {
-      es: "Laboratorio · Inteligencia artificial",
-      en: "Lab · Artificial intelligence",
-    },
-    description: {
-      es: "Un laboratorio editorial para explorar cómo transformar fuentes dispersas en información organizada. La base implementada recoge artículos, elimina duplicados y agrupa eventos mediante embeddings.",
-      en: "An editorial lab exploring how to turn scattered sources into organised information. The implemented foundation ingests articles, removes duplicates and groups events using embeddings.",
-    },
-    contribution: {
-      es: "Arquitectura y desarrollo de la ingesta, los procesos en segundo plano y el panel editorial. Experimentación con agrupación semántica y herramientas de producción de contenido.",
-      en: "Architecture and development of ingestion, background processing and the editorial dashboard. Experimentation with semantic clustering and content production tools.",
-    },
-    stack: ["FastAPI", "Next.js", "PostgreSQL", "Celery"],
-    href: null,
-    status: { es: "En desarrollo", en: "In development" },
-  },
-  {
-    id: "gouka-os",
-    title: "Gouka OS",
-    category: {
-      es: "Herramienta · Sistema interno",
-      en: "Tool · Internal system",
-    },
-    description: {
-      es: "Un espacio de trabajo que reúne herramientas de Gouka Studio en una única interfaz.",
-      en: "A workspace that brings Gouka Studio tools together in a single interface.",
-    },
-    contribution: {
-      es: "Diseño y desarrollo del escritorio web y la integración de herramientas existentes.",
-      en: "Design and development of the web desktop and integration of existing tools.",
-    },
-    stack: ["JavaScript", "Node.js"],
-    href: null,
-    status: { es: "Uso interno", en: "Internal use" },
   },
   {
     id: "ezbarbers",
@@ -133,29 +50,8 @@ export const projects = [
     status: { es: "Proyecto propio", en: "Personal project" },
   },
   {
-    id: "gouka-sky",
-    title: "GOUKA SKY",
-    featured: false,
-    category: {
-      es: "Concepto · Experiencias para eventos",
-      en: "Concept · Event experiences",
-    },
-    description: {
-      es: "Una web para presentar conceptos de shows de luz con drones y recoger solicitudes para eventos. Incluye propuestas por ocasión y una previsualización creativa.",
-      en: "A website presenting drone light show concepts and collecting event enquiries. It includes occasion-specific proposals and a creative preview.",
-    },
-    contribution: {
-      es: "Diseño y desarrollo de la experiencia web y del flujo de solicitudes.",
-      en: "Design and development of the web experience and enquiry flow.",
-    },
-    stack: ["JavaScript", "Node.js"],
-    href: "https://gouka-sky.vercel.app/",
-    status: { es: "En validación", en: "In validation" },
-  },
-  {
     id: "brumia",
     title: "BRUMIA",
-    featured: false,
     category: {
       es: "Producto · Gestión de bodas",
       en: "Product · Wedding planning",
